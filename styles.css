@@ -1,0 +1,22 @@
+input[type="checkbox"]
+{ background-color: blue;}
+
+.its_me{
+    font-size: 30px;
+    color: green;
+}
+.mango{
+    color: blue;
+}
+.apple{
+    color: chartreuse;
+}
+.papaya{
+    color: blueviolet;
+}
+.banana{
+    color: crimson;
+}
+html{
+    background-color:lightseagreen;
+}
