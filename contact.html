@@ -1,77 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>My Contact</h1>
+  <header>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Contact</title>
+    </head>
+  </header>
+  <body>
+    <main>
+      <h1>Welcome Contact</h1>
+<nav>
+  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+    
+    <h2>Get in Touch</h2>
+    <p>
+      If you have any question and comments, Please fill out the form below:
+    </p>
+    <form>
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        value="Name....."
+        name="Name"
+        id="name"
+        placeholder="Please Enter Your Name"
+      />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        value="Email...."
+        name="email"
+        id="email"
+        placeholder="Enter Email"
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter Password"
+      />
+      <br />
+      <label for="textarea">Enter Massage:</label>
+      <textarea
+        name="textarea"
+        id="textarea"
+        placeholder="Enter Massage"
+        cols="20"
+        rows="6"
+      ></textarea>
+      <br />
+      <select name="city">
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Australia">Australia</option>
+        <option value="Canada">Canada</option>
+      </select>
+      <br />
+      <label for="101">Human</label>
+      <input type="checkbox" name="checkbox" id="101" />
 
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="project.html">Project</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-
-<h2>Get in Touch</h2>
-
-<p>If you have any question and comments, Please fill out the from below:</p>
-
-<form >
-
-<label for="name">Name:</label>
-<input type="text" id="name" placeholder="Please Enter Your Name" required>
-
-<br>
-
-<label class="apple" for="101">Email:</label >
-<input type="email" name="email" id="101" placeholder="Enter Email" required class="mango">
-
-<br>
-<label class="banana" for="password">Password:</label>
-<input type="password" name="password" id="password" placeholder="Enter Password" required class="papaya">
-
-<br>
-<label for="me">Enter Massage:</label>
-<textarea id="me" cols="20" rows="6"  placeholder="Enter Massage"></textarea required> 
-
-<br>
-
-<select name="Countries" required>
-<option value="USA">USA</option>
-<option value="Nepal">Nepal</option>
-<option value="Uk">UK</option>
-<option value="Australia">Australia</option>
-</select>
-
-<br>
-<label for="102">Nepal</label>
-<input type="checkbox" id="102">
-<label for="103">USA</label>
-<input type="checkbox" id="103">
-<label for="104">Australia</label>
-<input type="checkbox" id="104">
-<label for="105">UK</label>
-<input type="checkbox" id="105">
-<br>
-<label for="106">ME</label>
-<input type="radio" id="106" name="who">
-<label for="107">You</label>
-<input type="radio" id="107" name="who">
-<br>
-
-<button type="submit">submit</button>
-<button type="reset">Recet</button>
-<br>
-
- <br>
-<pre>    <strong>Help Service</strong>       </pre> 
- <label for="0"></label>
- <textarea name="Feedback" id="0">Feedback</textarea>
-
-</form>
-<p>&copf; <b>Fury.</b> <i>All Right Reserved</i></p>
-</body>
+      <label for="102"><b>or</b></label>
+      <input type="checkbox" name="checkbox" id="102" />Robert
+      <br />
+      <label for="103">Male</label>
+      <input type="radio" name="Male" id="103" />
+      <label for="103"><b>or</b></label>
+      <input type="radio" name="Female" id="103" />Female
+      <br />
+      <button type="submit">submit</button>
+      <button type="reset">Reset</button>
+      <br />
+      <label for="feedback"></label>
+      <br />
+      Help Service
+      <br />
+      <textarea
+        name="feedback"
+        id="feedback"
+        placeholder="Enter Your Feedback"
+        cols="20"
+        rows="4"
+      ></textarea>
+    </main>
+    </form>
+<footer>
+  <p>&copf; <b>Fury. </b> All Right Reserved</p>
+</footer>
+    
+  </body>
 </html>
